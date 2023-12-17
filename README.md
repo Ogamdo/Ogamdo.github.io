@@ -1,0 +1,2 @@
+# Ogamdo.github.io
+TIL
