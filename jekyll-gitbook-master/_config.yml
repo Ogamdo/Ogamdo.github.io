@@ -1,8 +1,9 @@
 # This will be the first part of the title tag for your site <title> site.name + page.title </title>
+remote_theme : mmistakes/minimal-mistakes
 title: Supply
 url: "https://ogamdo.github.io" # the base hostname & protocol for your site, e.g. http://example.com, also used in jekyll-seo-tag
 baseurl:
-
+//supply
 google_analytics_key:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
