@@ -1,38 +1,21 @@
 AUTHOR = 'Ogamdo'
 SITENAME = "Ogamdo's Blog"
-SITEURL = "Ogmadoe.github.io"
+SITEURL = ''
 
-PATH = "content"
-THEME = r'D:\pelicanThemes\~\pelican-themes\resume'
-
-
+PATH = 'content'
 TIMEZONE = 'Asia/Seoul'
+DEFAULT_LANG = 'ko'
 
-DEFAULT_LANG = 'ko'  # Pelican에서 한국어를 사용하는 경우 'ko'로 변경
+# 테마 경로 설정
+THEME = '.'
 
-
-
-# Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
-
-# Blogroll
-LINKS = (
-    ("Pelican", "https://getpelican.com/"),
-    ("Python.org", "https://www.python.org/"),
-    ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-)
-
-# Social widget
-SOCIAL = (
-    ("GitHub", "https://github.com/Ogamdo"),
-    ("LinkedIn", "https://www.linkedin.com"),
-)
-
+# 마크다운 및 페이지 기본 설정
+MARKUP = ('md', 'html')
 DEFAULT_PAGINATION = 10
 
-# Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
+# URL 설정
+ARTICLE_URL = '{category}/{slug}.html'
+ARTICLE_SAVE_AS = '{category}/{slug}.html'
+
+CATEGORY_URL = '{slug}/'
+CATEGORY_SAVE_AS = '{slug}/index.html'
