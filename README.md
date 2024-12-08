@@ -3,6 +3,4 @@
 made by pelican:<br>
 [[https://docs.getpelican.com/en/latest/pelican-themes.html]]
 
-This blog uploads content related to Unity and C# and AI.<br>
-I translate my notes and what I studied or thought into English and post them on this blog.<br>
-Thanks for reading!
+펠리칸을 통해 제작한 포트폴리오 소개 웹사이트입니다.

@@ -1,12 +1,16 @@
 AUTHOR = 'Ogamdo'
-SITENAME = "Ogamdo's_blog"
-SITEURL = ""
+SITENAME = "Ogamdo's Blog"
+SITEURL = "Ogmadoe.github.io"
 
 PATH = "content"
+THEME = r'D:\pelicanThemes\~\pelican-themes\resume'
+
 
 TIMEZONE = 'Asia/Seoul'
 
-DEFAULT_LANG = 'Korean'
+DEFAULT_LANG = 'ko'  # Pelican에서 한국어를 사용하는 경우 'ko'로 변경
+
+
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -20,16 +24,15 @@ LINKS = (
     ("Pelican", "https://getpelican.com/"),
     ("Python.org", "https://www.python.org/"),
     ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-    ("You can modify those links in your config file", "#"),
 )
 
 # Social widget
 SOCIAL = (
-    ("You can add links in your config file", "#"),
-    ("Another social link", "#"),
+    ("GitHub", "https://github.com/Ogamdo"),
+    ("LinkedIn", "https://www.linkedin.com"),
 )
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
+RELATIVE_URLS = True
