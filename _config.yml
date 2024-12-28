@@ -1,6 +1,6 @@
 title: Made by Ogamdo
 description: > # this means to ignore newlines until "baseurl:"
-I am a developer interested in Game and AI technologies.
+  I am a developer interested in Game and AI technologies.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ogamdo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
